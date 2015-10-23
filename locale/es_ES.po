@@ -1,0 +1,612 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:project.helpdesk.timesheet:"
+msgid "You must select a employee in yours user preferences!"
+msgstr "Seleccione un empleado en sus preferencias."
+
+msgctxt "error:project.helpdesk:"
+msgid "Add a description before send an email or note!"
+msgstr "Añade una descripción antes de enviar el correo."
+
+msgctxt "error:project.helpdesk:"
+msgid "Closed"
+msgstr "Cerrado"
+
+msgctxt "error:project.helpdesk:"
+msgid "Drafted"
+msgstr "A borrador"
+
+msgctxt "error:project.helpdesk:"
+msgid "No E-Mail ID Found for your Company address!"
+msgstr ""
+"No se ha encontrado ningún correo electrónico en la dirección de su empresa."
+
+msgctxt "error:project.helpdesk:"
+msgid "Not valid from email!"
+msgstr "Correo electrónico no válido."
+
+msgctxt "error:project.helpdesk:"
+msgid "Not valid recepients email!"
+msgstr "Correo electrónico  de los observadores no válidos."
+
+msgctxt "error:project.helpdesk:"
+msgid "Opened"
+msgstr "Abierto"
+
+msgctxt "error:project.helpdesk:"
+msgid "Pending"
+msgstr "Pendiente"
+
+msgctxt "error:project.helpdesk:"
+msgid "Send"
+msgstr "Enviar"
+
+msgctxt "error:project.helpdesk:"
+msgid "Wrong connection to SMTP server. Not send email."
+msgstr ""
+"No se ha podido conectar al servidor SMTP. No se ha enviado el correo."
+
+msgctxt "error:project.helpdesk:"
+msgid ""
+"You must define a responsible user for this helpdesk in order to use this "
+"action!"
+msgstr "Seleccione un responsable de este tiquet de soporte."
+
+msgctxt "error:project.helpdesk:"
+msgid "You must put a party email to use this action!"
+msgstr ""
+"Selecciona un correo electrónico del tercero para ejecutar esta acción."
+
+msgctxt "error:project.helpdesk:"
+msgid "You must select a employee in yours user preferences!"
+msgstr "Seleccione un empleado en sus preferencias."
+
+msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
+msgid "You must select a employee in yours user preferences!"
+msgstr "Seleccione un empleado en sus preferencias."
+
+msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
+msgid "You must select a work in your task or parent."
+msgstr "Selecciona un trabajo en la tarea o su padre."
+
+msgctxt "field:helpdesk,work:"
+msgid "Work"
+msgstr "Trabajo"
+
+msgctxt "field:helpdesk,work_domain:"
+msgid "Work Domain"
+msgstr "Dominio proyecto"
+
+msgctxt "field:helpdesk.configuration,smtp_project:"
+msgid "SMTP Project Server"
+msgstr "SMTP servidor proyectos"
+
+msgctxt "field:project.helpdesk,add_attachments:"
+msgid "Add Attachments Email"
+msgstr "Añadir adjuntos en el correo"
+
+msgctxt "field:project.helpdesk,attachments:"
+msgid "Attachments"
+msgstr "Adjuntos"
+
+msgctxt "field:project.helpdesk,closed_date:"
+msgid "Closed"
+msgstr "Cerrado"
+
+msgctxt "field:project.helpdesk,contact:"
+msgid "Contact"
+msgstr "Contacto"
+
+msgctxt "field:project.helpdesk,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:project.helpdesk,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:project.helpdesk,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:project.helpdesk,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:project.helpdesk,email_cc:"
+msgid "CC"
+msgstr "CC"
+
+msgctxt "field:project.helpdesk,email_from:"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "field:project.helpdesk,employee:"
+msgid "Responsible"
+msgstr "Responsable"
+
+msgctxt "field:project.helpdesk,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.helpdesk,last_talk:"
+msgid "Last Talk"
+msgstr "Última conversación"
+
+msgctxt "field:project.helpdesk,logs:"
+msgid "Logs Helpdesk"
+msgstr "Logs"
+
+msgctxt "field:project.helpdesk,message_id:"
+msgid "Message ID"
+msgstr "Mensaje ID"
+
+msgctxt "field:project.helpdesk,name:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:project.helpdesk,num_attach:"
+msgid "Attachments"
+msgstr "Adjuntos"
+
+msgctxt "field:project.helpdesk,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:project.helpdesk,priority:"
+msgid "Priority"
+msgstr "Prioridad"
+
+msgctxt "field:project.helpdesk,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:project.helpdesk,state:"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "field:project.helpdesk,talks:"
+msgid "Communication"
+msgstr "Comunicación"
+
+msgctxt "field:project.helpdesk,timesheet_lines:"
+msgid "Timesheet Lines"
+msgstr "Líneas de parte de trabajo"
+
+msgctxt "field:project.helpdesk,unread:"
+msgid "Unread"
+msgstr "No leído"
+
+msgctxt "field:project.helpdesk,work:"
+msgid "Work"
+msgstr "Trabajo"
+
+msgctxt "field:project.helpdesk,work_domain:"
+msgid "Work Domain"
+msgstr "Dominio proyecto"
+
+msgctxt "field:project.helpdesk,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:project.helpdesk,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:project.helpdesk-ir.attachment,attachment:"
+msgid "Attachment"
+msgstr "Adjunto"
+
+msgctxt "field:project.helpdesk-ir.attachment,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:project.helpdesk-ir.attachment,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:project.helpdesk-ir.attachment,helpdesk:"
+msgid "Helpdesk"
+msgstr "Soporte"
+
+msgctxt "field:project.helpdesk-ir.attachment,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.helpdesk-ir.attachment,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:project.helpdesk-ir.attachment,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:project.helpdesk-ir.attachment,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:project.helpdesk.log,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:project.helpdesk.log,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:project.helpdesk.log,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:project.helpdesk.log,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.helpdesk.log,name:"
+msgid "Action"
+msgstr "Acción"
+
+msgctxt "field:project.helpdesk.log,project_helpdesk:"
+msgid "Helpdesk"
+msgstr "Soporte"
+
+msgctxt "field:project.helpdesk.log,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:project.helpdesk.log,user:"
+msgid "User"
+msgstr "Usuario"
+
+msgctxt "field:project.helpdesk.log,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:project.helpdesk.log,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:project.helpdesk.talk,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:project.helpdesk.talk,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:project.helpdesk.talk,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:project.helpdesk.talk,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:project.helpdesk.talk,display_text:"
+msgid "Display Text"
+msgstr "Mostrar texto"
+
+msgctxt "field:project.helpdesk.talk,email:"
+msgid "email"
+msgstr "Correo electrónico"
+
+msgctxt "field:project.helpdesk.talk,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.helpdesk.talk,project_helpdesk:"
+msgid "Helpdesk"
+msgstr "Soporte"
+
+msgctxt "field:project.helpdesk.talk,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:project.helpdesk.talk,unread:"
+msgid "Unread"
+msgstr "No leído"
+
+msgctxt "field:project.helpdesk.talk,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:project.helpdesk.talk,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:project.helpdesk.task.ask,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.helpdesk.task.ask,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:project.helpdesk.task.ask,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:project.helpdesk.timesheet.ask,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:project.helpdesk.timesheet.ask,hours:"
+msgid "Hours"
+msgstr "Horas"
+
+msgctxt "field:project.helpdesk.timesheet.ask,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project.work,close_helpdesk:"
+msgid "Close"
+msgstr "Cerrar"
+
+msgctxt "field:project_helpdesk.project.helpdesk.task.ask,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:project_helpdesk.project.helpdesk.task.ask,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:project_helpdesk.project.helpdesk.task.ask,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,duration:"
+msgid "Duration"
+msgstr "Tiempo"
+
+msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "help:project.helpdesk,add_attachments:"
+msgid ""
+"Send email attachments, first you need to add files in attachments field and"
+" after select in this list. When send email, attachemtns will be remove from"
+" this list."
+msgstr ""
+"Primero debe añadir adjuntos relacionados con el soporte y después podrá "
+"seleccionar los ficheros en esta lista para que se adjunten el correo."
+
+msgctxt "help:project.helpdesk,attachments:"
+msgid ""
+"Attachments fields related in this helpdesk. Remember to remove email "
+"attachments not necessary, for example, signatures, logos, etc"
+msgstr ""
+"Adjuntos relacionados con este soporte. Recuerde de eliminar los adjuntos no"
+" necesarios, por ejemplo firmas, logos, etc"
+
+msgctxt "help:project.work,close_helpdesk:"
+msgid "Close With Helpdesk"
+msgstr "Cerrar con soportes"
+
+msgctxt "model:ir.action,name:act_all_project_helpdesk"
+msgid "All Helpdesks"
+msgstr "Todos soportes"
+
+msgctxt "model:ir.action,name:act_project_helpdesk"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt "model:ir.action,name:act_project_helpdesk_form2"
+msgid "Project Helpdesks"
+msgstr "Soporte proyectos"
+
+msgctxt "model:ir.action,name:act_project_helpdesk_manager"
+msgid "Project Helpdesks"
+msgstr "Soporte proyectos"
+
+msgctxt "model:ir.action,name:act_project_helpdesk_project_form"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt "model:ir.action,name:wizard_task"
+msgid "Task"
+msgstr "Tarea"
+
+msgctxt "model:ir.action,name:wizard_timesheet"
+msgid "Timesheet"
+msgstr "Partes de trabajo"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_done"
+msgid "Done"
+msgstr "Realizados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_open"
+msgid "Open"
+msgstr "Abiertos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_pending"
+msgid "Pending"
+msgstr "Pendientes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_unreads"
+msgid "Unreads"
+msgstr "No leidos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_all_my"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_done"
+msgid "Done"
+msgstr "Realizados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_open"
+msgid "Open"
+msgstr "Abiertos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_pending"
+msgid "Pending"
+msgstr "Pendientes"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_unreads"
+msgid "Unreads"
+msgstr "No leidos"
+
+msgctxt "model:ir.ui.menu,name:menu_project_all_helpdesk"
+msgid "All Helpdesks"
+msgstr "Todos soportes"
+
+msgctxt "model:ir.ui.menu,name:menu_project_helpdesk"
+msgid "Helpdesks"
+msgstr "Soporte"
+
+msgctxt "model:ir.ui.menu,name:menu_project_helpdesk_manager"
+msgid "Project Helpdesks"
+msgstr "Soporte proyectos"
+
+msgctxt "model:project.helpdesk,name:"
+msgid "Project Helpdesk"
+msgstr "Soporte proyecto"
+
+msgctxt "model:project.helpdesk-ir.attachment,name:"
+msgid "Helpdesk - Attachment"
+msgstr "Soporte - Adjunto"
+
+msgctxt "model:project.helpdesk.log,name:"
+msgid "Project Helpdesk Log"
+msgstr "Logs soporte de proyectos"
+
+msgctxt "model:project.helpdesk.talk,name:"
+msgid "Project Helpdesk Talk"
+msgstr "Conversación soporte de proyectos"
+
+msgctxt "model:project.helpdesk.task.ask,name:"
+msgid "Project Helpdesk Create Task"
+msgstr "Crear tarea soporte de proyectos"
+
+msgctxt "model:project.helpdesk.timesheet.ask,name:"
+msgid "Project Helpdesk Add Timesheet"
+msgstr "Añade parte de trabajo con soporte de proyecto"
+
+msgctxt "model:project_helpdesk.project.helpdesk.task.ask,name:"
+msgid "Project Helpdesk Create Task"
+msgstr "Crear tarea soporte de proyectos"
+
+msgctxt "model:project_helpdesk.project.helpdesk.timesheet.ask,name:"
+msgid "Project Helpdesk Add Timesheet"
+msgstr "Añadir parte de trabajo soporte de proyectos"
+
+msgctxt "model:res.group,name:group_project_helpdesk"
+msgid "Helpdesk Project"
+msgstr "Soporte proyecto"
+
+msgctxt "selection:helpdesk,kind:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "selection:project.helpdesk,priority:"
+msgid "1-Important"
+msgstr "1-Importante"
+
+msgctxt "selection:project.helpdesk,priority:"
+msgid "2-High"
+msgstr "2-Alto"
+
+msgctxt "selection:project.helpdesk,priority:"
+msgid "3-Normal"
+msgstr "3-Normal"
+
+msgctxt "selection:project.helpdesk,priority:"
+msgid "4-Low"
+msgstr "4-Bajo"
+
+msgctxt "selection:project.helpdesk,state:"
+msgid "Close"
+msgstr "Cerrar"
+
+msgctxt "selection:project.helpdesk,state:"
+msgid "Done"
+msgstr "Realizado"
+
+msgctxt "selection:project.helpdesk,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:project.helpdesk,state:"
+msgid "Open"
+msgstr "Abierto"
+
+msgctxt "selection:project.helpdesk,state:"
+msgid "Pending"
+msgstr "Pendiente"
+
+msgctxt "view:helpdesk:"
+msgid "Add Timesheet"
+msgstr "Añade parte de trabajo"
+
+msgctxt "view:helpdesk:"
+msgid "Create Task"
+msgstr "Crear tarea"
+
+msgctxt "view:helpdesk:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
+msgid "Create Task"
+msgstr "Crear tarea"
+
+msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
+msgid "Create a new task related a project."
+msgstr "Crear una nueva tarea relacionada con el proyecto."
+
+msgctxt "view:project_helpdesk.project.helpdesk.timesheet.ask:"
+msgid "Add Timesheet"
+msgstr "Añade parte del trabajo"
+
+msgctxt "wizard_button:project.helpdesk.task,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:project.helpdesk.task,ask,handle:"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "wizard_button:project.helpdesk.timesheet,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:project.helpdesk.timesheet,ask,handle:"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,handle:"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt ""
+"wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,handle:"
+msgid "Ok"
+msgstr "Ok"

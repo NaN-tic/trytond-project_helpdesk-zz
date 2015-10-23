@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part project_helpdesk module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<form string="Create Task" col="2">
+    <image name="tryton-dialog-information" xexpand="0"
+        xfill="0"/>
+    <label string="Create a new task related a project."
+        id="choose"
+        yalign="0.0" xalign="0.0" xexpand="1"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="project"/>
+    <field name="project" widget="selection"/>
+</form>
