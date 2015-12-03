@@ -23,7 +23,7 @@ class Helpdesk:
             'readonly': Eval('state').in_(['cancel', 'done']),
             },
         domain=[('id', 'in', Eval('work_domain', []))],
-        depends=['state'])
+        depends=['state', 'work_domain'])
     timesheet_lines = fields.Function(fields.One2Many('timesheet.line', 'work',
         'Timesheet Lines'), 'get_timesheet_lines')
 
