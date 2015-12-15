@@ -5,6 +5,7 @@ from trytond.pool import Pool
 from .configuration import *
 from .helpdesk import *
 from .work import *
+from .getmail import *
 
 def register():
     Pool.register(
@@ -13,6 +14,7 @@ def register():
         ProjectHelpdeskCreateTask,
         ProjectHelpdeskAddTimesheet,
         ProjectWork,
+        GetmailServer,
         module='project_helpdesk', type_='model')
     Pool.register(
         ProjectHelpdeskTask,
