@@ -3,13 +3,12 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/notebook" position="inside">
-        <page id="project" string="Project">
-            <label name="work"/>
-            <field name="work"/>
-            <button name="create_task" string="Create Task" icon="tryton-go-next"/>
-            <button name="add_timesheet" string="Add Timesheet" icon="tryton-ok"/>
-            <field name="work_domain" invisible="1"/>
-        </page>
+    <xpath expr="/form/field[@name='priority']" position="after">
+        <newline/>
+        <label name="work"/>
+        <field name="work"/>
+        <button name="create_task" string="Create Task" icon="tryton-go-next"/>
+        <button name="add_timesheet" string="Add Timesheet" icon="tryton-ok"/>
+        <field name="work_domain" invisible="1"/>
     </xpath>
 </data>
