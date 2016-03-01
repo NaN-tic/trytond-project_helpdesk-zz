@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -8,7 +8,7 @@ msgstr "Seleccione un empleado en sus preferencias."
 
 msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
 msgid "You must select a work in your task or parent."
-msgstr "Selecciona un trabajo en la tarea o su padre."
+msgstr "Selecciona un trabajo en la tarea o en su padre."
 
 msgctxt "field:helpdesk,timesheet_lines:"
 msgid "Timesheet Lines"
@@ -24,7 +24,7 @@ msgstr "Dominio proyecto"
 
 msgctxt "field:helpdesk.configuration,smtp_project:"
 msgid "SMTP Project Server"
-msgstr "SMTP servidor proyectos"
+msgstr "SMTP servidor de proyectos"
 
 msgctxt "field:project.work,close_helpdesk:"
 msgid "Close"
@@ -56,11 +56,11 @@ msgstr "ID"
 
 msgctxt "help:project.work,close_helpdesk:"
 msgid "Close project/task when close a helpdesk"
-msgstr "Cerrar con soportes"
+msgstr "Cerrar proyecto/tarea cuando se cierra el soporte."
 
 msgctxt "model:ir.action,name:act_all_project_helpdesk"
 msgid "All Helpdesks"
-msgstr "Todos soportes"
+msgstr "Todos los soportes"
 
 msgctxt "model:ir.action,name:act_project_helpdesk"
 msgid "Helpdesks"
@@ -68,11 +68,11 @@ msgstr "Soporte"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_form2"
 msgid "Project Helpdesks"
-msgstr "Soporte proyectos"
+msgstr "Soporte de proyectos"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_manager"
 msgid "Project Helpdesks"
-msgstr "Soporte proyectos"
+msgstr "Soporte de proyectos"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_project_form"
 msgid "Helpdesks"
@@ -84,7 +84,7 @@ msgstr "Tarea"
 
 msgctxt "model:ir.action,name:wizard_timesheet"
 msgid "Timesheet"
-msgstr "Partes de trabajo"
+msgstr "Parte de trabajo"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_all"
@@ -109,7 +109,7 @@ msgstr "Pendientes"
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_unreads"
 msgid "Unreads"
-msgstr "No leidos"
+msgstr "No leídos"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_all_my"
@@ -134,11 +134,11 @@ msgstr "Pendientes"
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_unreads"
 msgid "Unreads"
-msgstr "No leidos"
+msgstr "No leídos"
 
 msgctxt "model:ir.ui.menu,name:menu_project_all_helpdesk"
 msgid "All Helpdesks"
-msgstr "Todos soportes"
+msgstr "Todos los soportes"
 
 msgctxt "model:ir.ui.menu,name:menu_project_helpdesk"
 msgid "Helpdesks"
@@ -146,23 +146,19 @@ msgstr "Soporte"
 
 msgctxt "model:ir.ui.menu,name:menu_project_helpdesk_manager"
 msgid "Project Helpdesks"
-msgstr "Soporte proyectos"
+msgstr "Soporte de proyectos"
 
 msgctxt "model:project_helpdesk.project.helpdesk.task.ask,name:"
 msgid "Project Helpdesk Create Task"
-msgstr "Crear tarea soporte de proyectos"
+msgstr "Soporte de proyectos. Crear tarea"
 
 msgctxt "model:project_helpdesk.project.helpdesk.timesheet.ask,name:"
 msgid "Project Helpdesk Add Timesheet"
-msgstr "Añadir parte de trabajo soporte de proyectos"
+msgstr "Soporte de proyectos. Añadir parte de trabajo"
 
 msgctxt "model:res.group,name:group_project_helpdesk"
 msgid "Helpdesk Project"
 msgstr "Soporte proyecto"
-
-msgctxt "selection:getmail.server,kind:"
-msgid "Project"
-msgstr "Proyecto"
 
 msgctxt "selection:helpdesk,kind:"
 msgid "Project"
@@ -170,15 +166,11 @@ msgstr "Proyecto"
 
 msgctxt "view:helpdesk:"
 msgid "Add Timesheet"
-msgstr "Añade parte de trabajo"
+msgstr "Añadir al parte de trabajo"
 
 msgctxt "view:helpdesk:"
 msgid "Create Task"
 msgstr "Crear tarea"
-
-msgctxt "view:helpdesk:"
-msgid "Project"
-msgstr "Proyecto"
 
 msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
 msgid "Create Task"
@@ -190,7 +182,7 @@ msgstr "Crear una nueva tarea relacionada con el proyecto."
 
 msgctxt "view:project_helpdesk.project.helpdesk.timesheet.ask:"
 msgid "Add Timesheet"
-msgstr "Añade parte del trabajo"
+msgstr "Añadir al parte de trabajo"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,end:"
 msgid "Cancel"
@@ -198,7 +190,7 @@ msgstr "Cancelar"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,handle:"
 msgid "Ok"
-msgstr "Ok"
+msgstr "Aceptar"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,end:"
 msgid "Cancel"
@@ -207,4 +199,4 @@ msgstr "Cancelar"
 msgctxt ""
 "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,handle:"
 msgid "Ok"
-msgstr "Ok"
+msgstr "Aceptar"

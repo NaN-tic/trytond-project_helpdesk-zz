@@ -1,14 +1,14 @@
-#
+# 
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
 msgid "You must select a employee in yours user preferences!"
-msgstr "Necessita seleccionar un empleat a les seves preferencies."
+msgstr "Heu de seleccionar un empleat a les vostres preferències."
 
 msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
 msgid "You must select a work in your task or parent."
-msgstr "Selecciona un treball en la tasca o el seu pare."
+msgstr "Heu de seleccionar un treball a la tasca o al seu pare."
 
 msgctxt "field:helpdesk,timesheet_lines:"
 msgid "Timesheet Lines"
@@ -56,7 +56,7 @@ msgstr "ID"
 
 msgctxt "help:project.work,close_helpdesk:"
 msgid "Close project/task when close a helpdesk"
-msgstr "Tanca amb suport"
+msgstr "Tanca projecte/tasca al tancar el suport."
 
 msgctxt "model:ir.action,name:act_all_project_helpdesk"
 msgid "All Helpdesks"
@@ -94,7 +94,7 @@ msgstr "Tots"
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_done"
 msgid "Done"
-msgstr "Realitzat"
+msgstr "Realitzats"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_open"
@@ -150,19 +150,15 @@ msgstr "Suport de projectes"
 
 msgctxt "model:project_helpdesk.project.helpdesk.task.ask,name:"
 msgid "Project Helpdesk Create Task"
-msgstr "Crea tasca suport de projectes"
+msgstr "Suport de projectes. Crea tasca"
 
 msgctxt "model:project_helpdesk.project.helpdesk.timesheet.ask,name:"
 msgid "Project Helpdesk Add Timesheet"
-msgstr "Afegeix full de treball suport de projectes"
+msgstr "Suport de projectes. Afegeix full de treball "
 
 msgctxt "model:res.group,name:group_project_helpdesk"
 msgid "Helpdesk Project"
 msgstr "Suport projectes"
-
-msgctxt "selection:getmail.server,kind:"
-msgid "Project"
-msgstr "Projecte"
 
 msgctxt "selection:helpdesk,kind:"
 msgid "Project"
@@ -175,10 +171,6 @@ msgstr "Afegeix al full de treball"
 msgctxt "view:helpdesk:"
 msgid "Create Task"
 msgstr "Crea tasca"
-
-msgctxt "view:helpdesk:"
-msgid "Project"
-msgstr "Projecte"
 
 msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
 msgid "Create Task"
@@ -198,7 +190,7 @@ msgstr "Cancel·la"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,handle:"
 msgid "Ok"
-msgstr "Ok"
+msgstr "D'acord"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,end:"
 msgid "Cancel"
@@ -207,4 +199,4 @@ msgstr "Cancel·la"
 msgctxt ""
 "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,handle:"
 msgid "Ok"
-msgstr "Ok"
+msgstr "D'acord"
