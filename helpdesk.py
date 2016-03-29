@@ -10,10 +10,10 @@ from trytond.transaction import Transaction
 __all__ = ['Helpdesk', 'ProjectHelpdeskCreateTask',
     'ProjectHelpdeskAddTimesheet', 'ProjectHelpdeskTask',
     'ProjectHelpdeskTimesheet']
-__metaclass__ = PoolMeta
 
 
 class Helpdesk:
+    __metaclass__ = PoolMeta
     __name__ = 'helpdesk'
     work_domain = fields.Function(fields.One2Many('project.work', None,
             'Work Domain', depends=['party']),
