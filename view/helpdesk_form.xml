@@ -7,8 +7,8 @@ copyright notices and license terms. -->
         <group col="4" colspan="4" id="project">
             <label name="work"/>
             <field name="work"/>
-            <button name="create_task" string="Create Task" icon="tryton-go-next"/>
-            <button name="add_timesheet" string="Add Timesheet" icon="tryton-ok"/>
+            <button name="create_task" icon="tryton-go-next"/>
+            <button name="add_timesheet" icon="tryton-ok"/>
             <field name="work_domain" invisible="1"/>
         </group>
     </xpath>

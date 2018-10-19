@@ -1,34 +1,30 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
 msgid "You must select a employee in yours user preferences!"
-msgstr "Seleccione un empleado en sus preferencias."
+msgstr "Heu de seleccionar un empleat a les vostres preferències."
 
 msgctxt "error:project_helpdesk.project.helpdesk.timesheet:"
 msgid "You must select a work in your task or parent."
-msgstr "Selecciona un trabajo en la tarea o en su padre."
-
-msgctxt "field:helpdesk,timesheet_lines:"
-msgid "Timesheet Lines"
-msgstr "Líneas de parte de trabajo"
+msgstr "Heu de seleccionar un treball a la tasca o al seu pare."
 
 msgctxt "field:helpdesk,work:"
 msgid "Work"
-msgstr "Trabajo"
+msgstr "Treball"
 
 msgctxt "field:helpdesk,work_domain:"
 msgid "Work Domain"
-msgstr "Dominio proyecto"
+msgstr "Domini treball"
 
 msgctxt "field:helpdesk.configuration,smtp_project:"
 msgid "SMTP Project Server"
-msgstr "SMTP servidor de proyectos"
+msgstr "SMTP servidor de projectes"
 
 msgctxt "field:project.work,close_helpdesk:"
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Tanca"
 
 msgctxt "field:project_helpdesk.project.helpdesk.task.ask,id:"
 msgid "ID"
@@ -36,19 +32,19 @@ msgstr "ID"
 
 msgctxt "field:project_helpdesk.project.helpdesk.task.ask,party:"
 msgid "Party"
-msgstr "Tercero"
+msgstr "Tercer"
 
 msgctxt "field:project_helpdesk.project.helpdesk.task.ask,project:"
 msgid "Project"
-msgstr "Proyecto"
+msgstr "Projecte"
 
 msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,description:"
 msgid "Description"
-msgstr "Descripción"
+msgstr "Descripció"
 
 msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,duration:"
 msgid "Duration"
-msgstr "Tiempo"
+msgstr "Temps"
 
 msgctxt "field:project_helpdesk.project.helpdesk.timesheet.ask,id:"
 msgid "ID"
@@ -56,147 +52,147 @@ msgstr "ID"
 
 msgctxt "help:project.work,close_helpdesk:"
 msgid "Close project/task when close a helpdesk"
-msgstr "Cerrar proyecto/tarea cuando se cierra el soporte."
+msgstr "Tanca projecte/tasca al tancar el suport."
 
 msgctxt "model:ir.action,name:act_all_project_helpdesk"
 msgid "All Helpdesks"
-msgstr "Todos los soportes"
+msgstr "Tots els suports"
 
 msgctxt "model:ir.action,name:act_project_helpdesk"
 msgid "Helpdesks"
-msgstr "Soporte"
+msgstr "Suport"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_form2"
 msgid "Project Helpdesks"
-msgstr "Soporte de proyectos"
+msgstr "Suport de projectes"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_manager"
 msgid "Project Helpdesks"
-msgstr "Soporte de proyectos"
+msgstr "Suport de projectes"
 
 msgctxt "model:ir.action,name:act_project_helpdesk_project_form"
 msgid "Helpdesks"
-msgstr "Soporte"
+msgstr "Suport"
 
 msgctxt "model:ir.action,name:wizard_task"
 msgid "Task"
-msgstr "Tarea"
+msgstr "Tasca"
 
 msgctxt "model:ir.action,name:wizard_timesheet"
 msgid "Timesheet"
-msgstr "Parte de trabajo"
+msgstr "Full de treball"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_all"
 msgid "All"
-msgstr "Todos"
+msgstr "Tots"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_done"
 msgid "Done"
-msgstr "Realizados"
+msgstr "Realitzats"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_open"
 msgid "Open"
-msgstr "Abiertos"
+msgstr "Oberts"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_pending"
 msgid "Pending"
-msgstr "Pendientes"
+msgstr "Pendents"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_all_project_helpdesk_unreads"
 msgid "Unreads"
-msgstr "No leídos"
+msgstr "No llegits"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_all_my"
 msgid "All"
-msgstr "Todos"
+msgstr "Tots"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_done"
 msgid "Done"
-msgstr "Realizados"
+msgstr "Realitzats"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_open"
 msgid "Open"
-msgstr "Abiertos"
+msgstr "Oberts"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_pending"
 msgid "Pending"
-msgstr "Pendientes"
+msgstr "Pendents"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_project_helpdesk_domain_project_helpdesk_unreads"
 msgid "Unreads"
-msgstr "No leídos"
+msgstr "No llegits"
 
 msgctxt "model:ir.ui.menu,name:menu_project_all_helpdesk"
 msgid "All Helpdesks"
-msgstr "Todos los soportes"
+msgstr "Tots els suports"
 
 msgctxt "model:ir.ui.menu,name:menu_project_helpdesk"
 msgid "Helpdesks"
-msgstr "Soporte"
+msgstr "Suport"
 
 msgctxt "model:ir.ui.menu,name:menu_project_helpdesk_manager"
 msgid "Project Helpdesks"
-msgstr "Soporte de proyectos"
+msgstr "Suport de projectes"
 
 msgctxt "model:project_helpdesk.project.helpdesk.task.ask,name:"
 msgid "Project Helpdesk Create Task"
-msgstr "Soporte de proyectos. Crear tarea"
+msgstr "Suport de projectes. Crea tasca"
 
 msgctxt "model:project_helpdesk.project.helpdesk.timesheet.ask,name:"
 msgid "Project Helpdesk Add Timesheet"
-msgstr "Soporte de proyectos. Añadir parte de trabajo"
+msgstr "Suport de projectes. Afegeix full de treball "
 
 msgctxt "model:res.group,name:group_project_helpdesk"
 msgid "Helpdesk Project"
-msgstr "Soporte proyecto"
+msgstr "Suport projectes"
 
 msgctxt "selection:helpdesk,kind:"
 msgid "Project"
-msgstr "Proyecto"
+msgstr "Projecte"
 
 msgctxt "view:helpdesk:"
 msgid "Add Timesheet"
-msgstr "Añadir al parte de trabajo"
+msgstr "Afegeix al full de treball"
 
 msgctxt "view:helpdesk:"
 msgid "Create Task"
-msgstr "Crear tarea"
+msgstr "Crea tasca"
 
 msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
 msgid "Create Task"
-msgstr "Crear tarea"
+msgstr "Crea tasca"
 
 msgctxt "view:project_helpdesk.project.helpdesk.task.ask:"
 msgid "Create a new task related a project."
-msgstr "Crear una nueva tarea relacionada con el proyecto."
+msgstr "Crea una nova tasca relacionada amb el projecte."
 
 msgctxt "view:project_helpdesk.project.helpdesk.timesheet.ask:"
 msgid "Add Timesheet"
-msgstr "Añadir al parte de trabajo"
+msgstr "Afegeix al full de treball"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,end:"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Cancel·la"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.task,ask,handle:"
 msgid "Ok"
-msgstr "Aceptar"
+msgstr "D'acord"
 
 msgctxt "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,end:"
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Cancel·la"
 
 msgctxt ""
 "wizard_button:project_helpdesk.project.helpdesk.timesheet,ask,handle:"
 msgid "Ok"
-msgstr "Aceptar"
+msgstr "D'acord"

@@ -222,6 +222,18 @@ copyright notices and license terms. -->
             <field name="act_window" ref="act_all_project_helpdesk"/>
         </record>
 
+        <!-- buttons -->
+        <record model="ir.model.button" id="create_task_button">
+            <field name="name">create_task</field>
+            <field name="string">Create Task</field>
+            <field name="model" search="[('model', '=', 'helpdesk')]"/>
+        </record>
+        <record model="ir.model.button" id="add_timesheet_button">
+            <field name="name">add_timesheet</field>
+            <field name="string">Add Timesheet</field>
+            <field name="model" search="[('model', '=', 'helpdesk')]"/>
+        </record>
+
         <!-- Access Helpdesk Project -->
         <record model="ir.model.access" id="access_project_helpdesk">
             <field name="model" search="[('model', '=', 'helpdesk')]"/>

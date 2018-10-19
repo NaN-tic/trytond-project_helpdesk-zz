@@ -2,21 +2,25 @@
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
 from trytond.pool import Pool
-from .configuration import *
-from .helpdesk import *
-from .work import *
-from .getmail import *
+from . import configuration
+from . import helpdesk
+from . import work
+from . import getmail
+
 
 def register():
     Pool.register(
-        HelpdeskConfiguration,
-        Helpdesk,
-        ProjectHelpdeskCreateTask,
-        ProjectHelpdeskAddTimesheet,
-        ProjectWork,
-        GetmailServer,
+        configuration.HelpdeskConfiguration,
+        helpdesk.Helpdesk,
+        helpdesk.ProjectHelpdeskCreateTask,
+        helpdesk.ProjectHelpdeskAddTimesheet,
+        work.ProjectWork,
         module='project_helpdesk', type_='model')
     Pool.register(
-        ProjectHelpdeskTask,
-        ProjectHelpdeskTimesheet,
+        getmail.GetmailServer,
+        depends=['getmail'],
+        module='project_helpdesk', type_='model')
+    Pool.register(
+        helpdesk.ProjectHelpdeskTask,
+        helpdesk.ProjectHelpdeskTimesheet,
         module='project_helpdesk', type_='wizard')

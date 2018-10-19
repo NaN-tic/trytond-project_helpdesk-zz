@@ -12,8 +12,7 @@ __all__ = ['Helpdesk', 'ProjectHelpdeskCreateTask',
     'ProjectHelpdeskTimesheet']
 
 
-class Helpdesk:
-    __metaclass__ = PoolMeta
+class Helpdesk(metaclass=PoolMeta):
     __name__ = 'helpdesk'
     work_domain = fields.Function(fields.One2Many('project.work', None,
             'Work Domain', depends=['party']),
@@ -24,8 +23,6 @@ class Helpdesk:
             },
         domain=[('id', 'in', Eval('work_domain', []))],
         depends=['state', 'work_domain'])
-    timesheet_lines = fields.Function(fields.One2Many('timesheet.line', 'work',
-        'Timesheet Lines'), 'get_timesheet_lines')
 
     @classmethod
     def __setup__(cls):
@@ -211,7 +208,7 @@ class ProjectHelpdeskTimesheet(Wizard):
             self.raise_user_error('no_employee')
 
         helpdesk = Helpdesk(Transaction().context['active_id'])
-        
+
         work = helpdesk.work.work if helpdesk.work.work else helpdesk.work.parent.work
         if not work:
             self.raise_user_error('no_work')

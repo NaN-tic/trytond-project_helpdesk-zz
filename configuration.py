@@ -7,7 +7,6 @@ from trytond.pool import PoolMeta
 __all__ = ['HelpdeskConfiguration']
 
 
-class HelpdeskConfiguration:
-    __metaclass__ = PoolMeta
+class HelpdeskConfiguration(metaclass=PoolMeta):
     __name__ = 'helpdesk.configuration'
     smtp_project = fields.Many2One('smtp.server', 'SMTP Project Server')

@@ -7,8 +7,7 @@ from trytond.pool import PoolMeta
 __all__ = ['ProjectWork']
 
 
-class ProjectWork:
-    __metaclass__ = PoolMeta
+class ProjectWork(metaclass=PoolMeta):
     __name__ = 'project.work'
     close_helpdesk = fields.Boolean('Close',
         help='Close project/task when close a helpdesk')
